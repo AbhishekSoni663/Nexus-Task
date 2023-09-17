@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.nine-section{
+    height: 40%;
+    width: 100%;
+    display: none;
+}
+@media(max-width:799px){
+    .nine-section{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        color: #C7F0F2;
+        padding: 20px;
+        background-color: #5B3E45;
+    }
+    .nine-h3{
+        font-size: 11px;
+        font-family: Sussie,sans-serif;
+    }
+    .nine-detail{
+        min-height: 170px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .nine-detail a{
+        text-decoration: none;
+        color: #C7F0F2;
+        display: flex;
+        justify-content: space-between;
+        padding: 13px;
+        font-size: 11px;
+        border:1px solid #fffef2 ;
+        font-family: Sussie,sans-serif;
+    }
+    .nine-detail h3{
+        font-size: 25px;
+        font-family: Sussie,sans-serif;
+    }
+    .nine-detail p{
+        font-family: "Sussie Regular",sans-serif;
+        font-size: 12px;
+    }
+}

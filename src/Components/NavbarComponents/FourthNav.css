@@ -53,3 +53,62 @@
         height: 300px !important;
     }
 }
+
+
+/* Offcanvas Nav Style */
+.fourth-off-nav a{
+color: #333;
+font-family: Sussie , sans-serif;
+border-top: 1px solid  rgba(51, 51, 51, 0.12) ;
+font-size: 12px;
+}
+
+.fourth-off-span-nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.fourth-off-span-nav a{
+    text-decoration: none;
+    margin: 7px 0;
+    font-family: Sussie , sans-serif;
+    color: #333;
+    width: 50%;
+    font-size: 11px;
+}
+.fourth-off-cars{
+    margin-top: 10px;
+}
+.fourth-off-cars2{
+    display: flex;
+    width: 60% !important;
+}
+.fourth-off-cars1{
+   width: 100%;
+}
+.fourth-off-card{
+    border: none;
+    border-radius: 0% !important;
+}
+.fourth-off-h6{
+    font-size: 11px;
+}
+
+.fourth-off-icon{
+    margin-left: auto;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fourth-off-icon a{
+text-decoration: none;
+color: #333;
+font-size: 11px;
+font-family: Sussie,sans-serif;
+}
+@media(max-width:768px){
+    .fourth-off-cars2{
+        width: 100% !important;
+    }
+}

@@ -161,7 +161,7 @@ const FourthNavbar = () => {
                     <SplideSlide className="fourth-off-cars2">
                       <div className="card fourth-off-card">
                         <img
-                          src="src/assets/OffCanImg/Offimg2.jpg"
+                          src="./src/assets/OffCanImg/Offimg2.jpg"
                           className="card-img-top"
                           alt="..."
                         />
@@ -226,7 +226,7 @@ const FourthNavbar = () => {
                     <SplideSlide className="fourth-off-cars2">
                       <div className="card fourth-off-card">
                         <img
-                          src="src/assets/OffCanImg/Offimg5.jpg"
+                          src="./src/assets/OffCanImg/Offimg5.jpg"
                           className="card-img-top"
                           alt="..."
                         />

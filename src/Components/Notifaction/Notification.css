@@ -6,9 +6,16 @@
 .noti-icon{
     position: absolute;
     z-index: 1;
-    bottom: 100px;
+    bottom: 119px;
     font-size: 17px;
-    right: 90px;
+    right: 76px;
+    font-size: 17px;
+    height: 40px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #C7F0F2;
     color: #C7F0F2;
     background-color: #333333;
 }
@@ -19,11 +26,10 @@
     position: absolute;
     z-index: 1;
         bottom: 119px;
-       width: 24px;
     border-radius: 50%;
-    padding: 2px;
+    padding: 12px;
     display: flex;
-    font-size: 11px;
+    font-size: 15px;
     right: 25px;
     color: #C7F0F2;
     background-color: #333333;

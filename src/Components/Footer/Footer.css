@@ -242,6 +242,9 @@ footer hr{
     padding: 10px;
     color: #C7F0F2;
 }
+.foot-icon a i{
+     color: #C7F0F2;
+}
 .footer-copy p{
     display: flex;
     padding: 10px;

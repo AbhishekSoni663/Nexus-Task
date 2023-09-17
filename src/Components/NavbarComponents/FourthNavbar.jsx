@@ -1,10 +1,10 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "../NavbarComponents/FourthNav.css";
 import NewOffImg1 from "/src/assets/Offimg/Offimg1.jpg";
-import NewOffImg2 from "../assets/Offimg/Offimg2.webp";
+import NewOffImg2 from "/src/assets/Offimg/Offimg2.jpg";
 import NewOffImg3 from "/src/assets/Offimg/Offimg3.avif";
 import NewOffImg4 from "/src/assets/Offimg/Offimg4.jpg";
-import NewOffImg5 from "../assets/Offimg/Offimg5.webp";
+import NewOffImg5 from "/src/assets/Offimg/Offimg5.jpg";
 import NineComp from "../Ninecomp/NineComp";
 
 const FourthNavbar = () => {

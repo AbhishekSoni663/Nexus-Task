@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fourth-container {
+  height: 590px !important;
+  min-width: 100%;
+  /* background-color: blue; */
+  background-image: url(/src/assets/HeroImg/Aesopbg2.avif);
+  background-size: cover;
+  background-position: center;
+}
+.fourth-head {
+  /* background-color: rgb(48, 66, 82); */
+  height: 70%;
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fourth-detail {
+  height: 100%;
+  width: 100%;
+  /* background-color: brown; */
+  display: flex !important;
+  justify-content: space-evenly;
+}
+.fourth-detail-head {
+  /* background-color: antiquewhite; */
+  width: 70%;
+  padding: 5px;
+  height: 100%;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+.fourth-head-h2 {
+  display: flex;
+  width: 20%;
+  height: 46%;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aliceblue; */
+}
+.fourth-head img {
+  /* border: 1px solid red; */
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.fourth-sec-btn {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Sussie,sans-serif;
+  color: #C7F0F2;
+  font-size: 14px;
+  padding: 0.9em;
+  background: none;
+  border: 1px solid #fffef2;
+}
+@media (max-width: 1010px) {
+  .fourth-container {
+    display: none;
+  }
+}
+
+.fourth-detail-p{
+  font-family: "Sussie Regular", sans-serif;
+  font-size: 30px;
+  color: #C7F0F2;
+}
+.fourth-detail-p1{
+  font-family: Sussie,sans-serif;
+  font-size: 16px;
+  color: #C7F0F2;
+}
+.fourth-detail-h6{
+  font-family: Sussie,sans-serif;
+  font-size: 14px;
+  color: #C7F0F2;
+}

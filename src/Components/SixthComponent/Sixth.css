@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+.sixth-container {
+  min-height: 80vh;
+  width: 100%;
+  padding: 10px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sixth-detail {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  min-height: 100% !important;
+}
+.sixth-detail-2 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  min-height: 100% !important;
+}
+.sixth-card {
+  width: 370px !important;
+}
+.card {
+  width: 100% !important;
+  height: 100% !important;
+}
+.sixth-splide {
+  width: 100% !important;
+  justify-content: space-evenly !important;
+  /* background-color: blue; */
+  display: flex;
+}
+
+.sixth-head {
+  width: 40% !important;
+}
+.sixth-card1 {
+  width: 370px !important;
+}
+@media (max-width: 1000px) {
+  .sixth-detail {
+    display: none !important;
+  }
+}
+
+.sixth-detail-2 {
+  display: none;
+}
+.sixth-splide-crs-2 {
+  display: none !important;
+}
+.sixth-head-2 {
+  display: none !important;
+}
+
+@media (max-width: 999px) {
+  .sixth-detail-2 {
+    display: block !important;
+  }
+  .sixth-splide-crs-2 {
+    display: block !important;
+  }
+  .sixth-head-2 {
+    display: block !important;
+  }
+ .sixth-card-2{
+    width: 50% !important;
+ }
+}
+@media (max-width: 768px) {
+  .sixth-head-2 {
+    min-width: 100% !important;
+  }
+  .sixth-card-2{
+    width: 70% !important;
+  }
+}
+@media(max-width:500px){
+    .sixth-card-2{
+    width: 100% !important;
+  }
+}
+
+/* Second car0 Section */
+
+.sixth-head-2 {
+  width: 90%;
+}
+
+/* Text Style */
+.sixth-h1{
+font-size: 30px;
+font-family: "Zapf Humainst",sans-serif;
+color: #333333;
+}
+.sixth-h3{
+  font-family: Sussie,sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+.sixth-p1{
+  font-size: 16px;
+  font-family: "Sussie Regular",sans-serif;
+  color: #333333;
+}
+.sixth-p2{
+  font-size: 14px;
+  font-family: Sussie,sans-serif;
+  color: #333333;
+  text-align: center;
+}
+.sixth-h2{
+  font-size: 14px;
+  font-family: Sussie,sans-serif;
+  color: #333333;
+  text-align: center;
+}
+
+

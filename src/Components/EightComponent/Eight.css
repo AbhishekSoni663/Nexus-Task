@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .eight-section{
+    height: 80vh;
+} */
+.eight-main{
+    display: flex;
+    justify-content: space-around;
+    width: 100% !important;
+}
+.eight-img{
+    width: 65% !important;
+}
+.eight-detail{
+    width: 30% !important;
+}
+.eight-img img{
+    object-fit: cover !important;
+    width: 100%;
+}
+.eight-text{
+    margin-top: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media Querry */
+
+@media(max-width:1000px){
+    .eight-main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .eight-img{
+        width: 96% !important;
+        margin-top: 10px;
+    }
+    .eight-detail{
+        width: 90% !important;
+        margin-top: 10px;
+    }
+}
+@media(max-width:768px){
+    .eight-test-p{
+        text-align: center;
+    }
+}
+
+/* Text style */
+.eight-h5{
+    font-size: 14px;
+    font-family: Sussie,sans-serif;
+}
+.eight-h2{
+    font-size: 30px;
+    font-family: "Zapf Humanist",sans-serif;
+    color: #333333;
+    font-weight: 100;
+}
+.eight-p{
+font-family: Sussie,sans-serif;
+font-size: 16px;
+color: #333333;
+}
+.eight-btn{
+    text-decoration: none;
+    color: #333333;
+    font-family: Sussie,sans-serif;
+font-size: 14px;
+color: #333333;
+width: 70%;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+border: 1px solid rgba(51,51,51,.2);
+}
+
+.eight-test-p{
+    font-size: 30px;
+    font-family: "Zapf Humanist",sans-serif;
+    color: #333333;
+}
+.eight-test-p1{
+    font-size: 14px;
+    font-family: Sussie,sans-serif;
+    color: #333333;
+}

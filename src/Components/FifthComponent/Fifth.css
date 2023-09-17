@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fifth-detail{
+    width: 70%;
+    height: 100%;
+}
+.fifth-head{
+    width: 25%;
+    height: 50% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fifth-section{
+    min-height: 60vh;
+    display: flex;
+    align-self: center !important;
+    padding: 10px;
+    justify-content: space-around;
+}
+.fifth-sec-a{
+    width: 290px;
+    padding: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+    border: 1px solid rgba(51,51,51,.2);
+    font-size: 14px;
+    font-family: Sussie,sans-serif;
+}
+@media(max-width:1000px){
+    .fifth-section{
+       height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .fifth-detail{
+        width: 98%;
+    }
+    .fifth-head{
+        width: 90%;
+
+    }
+}
+@media(max-width:768px){
+    .fifth-section{
+        display: flex;
+        min-height: 55vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .fifth-detail{
+        width: 98%;
+        height: 100%;
+    }
+    .fifth-sec-a{
+        width: 100%;
+    }
+    .fifth-head{
+        width: 96%;
+    }
+}
+
+/* Text Style */
+.fifth-head-h6{
+    font-family: Sussie,sans-serif;
+    font-size: 14px;
+    color:#333333
+}
+.fifth-head-p{
+    font-size: 30px;
+    font-family: "Zapf Humanist",sans-serif;
+}
+.fifth-head-p1{
+      font-family: Sussie,sans-serif;
+    font-size: 16px;
+    color:#333333
+}

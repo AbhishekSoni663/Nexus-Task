@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.third-container {
+  min-height: 80vh;
+  width: 100%;
+  padding: 10px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-detail {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  min-height: 100% !important;
+  
+}
+.third-detail-2 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  min-height: 100% !important;
+}
+.third-card {
+  width: 370px !important;
+}
+.card {
+  width: 100% !important;
+  height: 100% !important;
+}
+.third-splide {
+  width: 100% !important;
+  justify-content: space-evenly !important;
+  /* background-color: blue; */
+  display: flex;
+}
+
+.third-head {
+  width: 40% !important;
+}
+.third-card1 {
+  width: 370px !important;
+}
+@media (max-width: 1000px) {
+  .third-detail {
+    display: none !important;
+  }
+}
+
+.third-detail-2 {
+  display: none;
+}
+.third-splide-crs-2 {
+  display: none !important;
+}
+.third-head-2 {
+  display: none !important;
+}
+
+@media (max-width: 999px) {
+  .third-detail-2 {
+    display: block !important;
+  }
+  .third-splide-crs-2 {
+    display: block !important;
+  }
+  .third-head-2 {
+    display: block !important;
+  }
+ .third-card-2{
+    width: 50% !important;
+ }
+}
+@media (max-width: 768px) {
+  .third-head-2 {
+    min-width: 100% !important;
+  }
+  .third-card-2{
+    width: 70% !important;
+  }
+}
+@media(max-width:500px){
+    .third-card-2{
+    width: 100% !important;
+  }
+}
+
+/* Second car0 Section */
+
+.third-head-2 {
+  width: 90%;
+}
+
+/* Text Styling */
+.third-title-h1{
+  font-size: 14px;
+  font-family: Sussie,sans-serif;
+  text-decoration: none;
+  color: #333333;
+}
+.third-title-p1{
+    font-size: 14px;
+  font-family: Sussie,sans-serif;
+  text-decoration: none;
+  color: #333333;
+}
+.third-title-p{
+  font-size: 14px;
+  font-family: Sussie,sans-serif;
+}
+.third-title-h5{
+  font-family: "Zapf Humanist",sans-serif;
+  font-size: 30px;
+  color: #333333;
+}
+.third-header-h1{
+  font-family: Sussie,sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+.third-title-a{
+  font-family: Sussie,sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  /* background-color: blue; */
+  padding: 10px;
+  color: #333333 !important;
+}
+
+.third-title-a i{
+  margin-left: 18px;
+}

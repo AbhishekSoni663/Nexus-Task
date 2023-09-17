@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.third-nav-a{
+    padding: 0.1em;
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    font-family: "Suisse Regular", sans-serif !important;
+    justify-content: center;
+}
+
+@media(max-width:809px){
+    .third-nav-icon{
+      display: flex;
+      align-items: center;
+    }
+}

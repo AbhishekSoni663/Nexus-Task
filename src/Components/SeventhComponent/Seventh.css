@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.seventh-btn{
+    display: flex;
+    width: 79%;
+    padding: 15px;
+    font-size: 14px;
+    font-family: Sussie,sans-serif;
+    color: #333333;
+    justify-content: space-between;
+    text-decoration: none;
+    border: 1px solid rgba(51,51,51,.2);
+}
+.seventh-all-detail{
+    display: flex;
+    width: 100% !important;
+    /* background-color: blue; */
+    padding: 10px;
+  
+    justify-content: space-around;
+}
+.carousel{
+    width: 65% !important;
+    height: 100% !important;
+}
+
+.seventh-card{
+    height: 270px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+
+@media(max-width:1100px){
+    .seventh-all-detail{
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: space-around;
+        align-items: flex-end;
+        min-width: 90% !important;
+    }
+    .seventh-card{
+        width: 70% !important;
+       
+    }
+    .carousel{
+        width: 90% !important;
+    }
+    .seventh-section{
+        height: 100% !important;
+    }
+}
+.seventh-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+/* min-height: 70vh; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media(max-width:768px){
+    .carousel{
+        width: 550px !important;
+    }
+    .seventh-card{
+        width: 500px;
+         height: 220px !important;
+    }
+    .seventh-all-detail{
+        height: 100% !important;
+    }
+}
+@media(max-width:600px){
+     .carousel{
+        width: 400px !important;
+    }
+    .seventh-card{
+        width: 350px !important;
+         height: 220px !important;
+    }
+}
+@media(max-width:450px){
+     .carousel{
+        width: 340px !important;
+    }
+    .seventh-card{
+        width: 300px !important;
+         height: 220px !important;
+    }
+}
+@media(max-width:380px){
+     .carousel{
+        width: 300px !important;
+    }
+    .seventh-card{
+        width: 280px !important;
+         height: 220px !important;
+    }
+}
+@media(max-width:350px){
+     .carousel{
+        width: 270px !important;
+    }
+    .seventh-card{
+        width: 240px !important;
+        height: 220px !important;
+    }
+}
+.seventh-h1 h6{
+    font-size: 30px;
+    font-family: "Zapf Humanist",sans-serif !important;
+    color:#333333;
+    font-weight: 100;
+}
+
+.seventh-p{
+    font-size: 16px;
+    font-family: Sussie,sans-serif;
+    color: #333333;
+}

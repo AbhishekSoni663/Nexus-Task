@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.second-nav-h5 {
+    padding: 0.1em;
+    margin: 5px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: "Suisse Regular", sans-serif;
+}
+
+.second-nav-spa{
+  font-family: "Suisse Medium", sans-serif;
+  font-size: 14px;
+  margin-left: 5px;
+}

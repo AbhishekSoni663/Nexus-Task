@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.noti-icon{
+    position: absolute;
+    z-index: 1;
+    bottom: 100px;
+    font-size: 17px;
+    right: 90px;
+    color: #C7F0F2;
+    background-color: #333333;
+}
+
+
+@media(max-width:900px){
+    .noti-icon{
+    position: absolute;
+    z-index: 1;
+        bottom: 119px;
+    font-size: 17px;
+    right: 25px;
+    color: #C7F0F2;
+    background-color: #333333;
+}
+}

@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .main-nav-a1{
+    display: flex;
+    justify-content: space-between;
+} */
+/* @media (max-width: 1008px) or (min-width: 2800px){
+    .main-nav-a1{
+        display: none;
+    }
+} */
+.fourth-nav{
+    display: none;
+}
+.fourth-nav-a{
+    /* background-color: rgb(138, 161, 182); */
+    width: 30%;
+    justify-content: space-around;
+}
+.fourth-nav-a a{
+    text-decoration: none;
+    
+}
+@media(max-width:800px){
+    .fourth-nav{
+        display: block !important;
+        display: flex !important;
+    }
+   .fourth-nav-sec{
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100%  120%;
+    background-position: center;
+    background-image: url(/src/assets/HeroImg/Aesopbg3.avif);
+   }
+}
+
+
+.fourth-nav-ul{
+    width: 30% !important;
+    background-color: blueviolet;
+    display: none !important;
+}
+@media(max-width:569px){
+    .fourth-nav-ul{
+        display: block !important;
+        min-height: 100vh;
+    }
+}
+@media(max-width:500px){
+    .fourth-nav-a{
+        width: 40%;
+    }
+}
+
+@media (max-width:1009px) or (min-width:2800px){
+    .fourth-container{
+        background-color: blue;
+        height: 300px !important;
+    }
+}

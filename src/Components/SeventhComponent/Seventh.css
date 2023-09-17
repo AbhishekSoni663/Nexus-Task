@@ -7,7 +7,7 @@
     display: flex;
     width: 79%;
     padding: 15px;
-    font-size: 14px;
+    font-size: 11px;
     font-family: Sussie,sans-serif;
     color: #333333;
     justify-content: space-between;
@@ -114,14 +114,14 @@
     }
 }
 .seventh-h1 h6{
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Zapf Humanist",sans-serif !important;
     color:#333333;
     font-weight: 100;
 }
 
 .seventh-p{
-    font-size: 16px;
+    font-size: 11px;
     font-family: Sussie,sans-serif;
     color: #333333;
 }

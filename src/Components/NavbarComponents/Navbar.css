@@ -17,7 +17,7 @@
     align-items: center;
     padding: 10px;
     font-family: "Suisse Medium", sans-serif;
-    font-size: 14px;
+    font-size: 11px;
     list-style-type: none;
     justify-content: space-evenly;
     color: #333333;
@@ -60,7 +60,7 @@
     padding: 10px;
     color: #333333;
      font-family: "Suisse Medium", sans-serif;
-    font-size: 14px;
+    font-size: 11px;
     justify-content: space-evenly;
 }
 @media(max-width:1010px){

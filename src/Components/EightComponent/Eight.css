@@ -55,25 +55,25 @@
 
 /* Text style */
 .eight-h5{
-    font-size: 14px;
+    font-size: 11px;
     font-family: Sussie,sans-serif;
 }
 .eight-h2{
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Zapf Humanist",sans-serif;
     color: #333333;
     font-weight: 100;
 }
 .eight-p{
 font-family: Sussie,sans-serif;
-font-size: 16px;
+font-size: 12px;
 color: #333333;
 }
 .eight-btn{
     text-decoration: none;
     color: #333333;
     font-family: Sussie,sans-serif;
-font-size: 14px;
+font-size: 11px;
 color: #333333;
 width: 70%;
 display: flex;
@@ -83,12 +83,12 @@ border: 1px solid rgba(51,51,51,.2);
 }
 
 .eight-test-p{
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Zapf Humanist",sans-serif;
     color: #333333;
 }
 .eight-test-p1{
-    font-size: 14px;
+    font-size: 11px;
     font-family: Sussie,sans-serif;
     color: #333333;
 }

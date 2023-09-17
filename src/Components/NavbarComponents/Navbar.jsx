@@ -92,7 +92,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link disabled" aria-disabled="true">
-                <i className="bi bi-search" style={{ fontSize: "19px" }}></i>
+                <i className="bi bi-search" style={{ fontSize: "13px" }}></i>
               </a>
             </li>
           </ul>

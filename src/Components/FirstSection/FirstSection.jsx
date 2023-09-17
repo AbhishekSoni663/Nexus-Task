@@ -17,7 +17,7 @@ const FirstSection = () => {
                 role="img"
                 tabIndex="-1"
                 viewBox="0 0 489.7 154.3"
-                width="120"
+                width="100"
                 style={{ height: " 40px; width: 120px" }}
               >
                 <title aria-label="Aesop logo" id="aesop-15664">

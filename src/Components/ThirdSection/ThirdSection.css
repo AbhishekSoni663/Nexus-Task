@@ -98,34 +98,34 @@
 
 /* Text Styling */
 .third-title-h1{
-  font-size: 14px;
+  font-size: 11px;
   font-family: Sussie,sans-serif;
   text-decoration: none;
   color: #333333;
 }
 .third-title-p1{
-    font-size: 14px;
+    font-size: 11px;
   font-family: Sussie,sans-serif;
   text-decoration: none;
   color: #333333;
 }
 .third-title-p{
-  font-size: 14px;
+  font-size: 11px;
   font-family: Sussie,sans-serif;
 }
 .third-title-h5{
   font-family: "Zapf Humanist",sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: #333333;
 }
 .third-header-h1{
   font-family: Sussie,sans-serif;
-  font-size: 14px;
+  font-size: 11px;
   color: #333333;
 }
 .third-title-a{
   font-family: Sussie,sans-serif;
-  font-size: 16px;
+  font-size: 11px;
   text-decoration: none;
   /* background-color: blue; */
   padding: 10px;

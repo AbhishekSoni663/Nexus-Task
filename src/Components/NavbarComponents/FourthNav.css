@@ -4,20 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* .main-nav-a1{
-    display: flex;
-    justify-content: space-between;
-} */
-/* @media (max-width: 1008px) or (min-width: 2800px){
-    .main-nav-a1{
-        display: none;
-    }
-} */
 .fourth-nav{
     display: none;
 }
 .fourth-nav-a{
-    /* background-color: rgb(138, 161, 182); */
     width: 30%;
     justify-content: space-around;
 }

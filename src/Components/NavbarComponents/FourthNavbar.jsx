@@ -1,9 +1,12 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "../NavbarComponents/FourthNav.css";
 import NewOffImg1 from "/src/assets/OffCanImg/Offimg1.jpg";
-
+import NewOffImg2 from "/src/assets/OffCanImg/Offimg2.png";
 import NewOffImg3 from "/src/assets/OffCanImg/Offimg3.avif";
 import NewOffImg4 from "/src/assets/OffCanImg/Offimg4.jpg";
+import NewOffImg5 from "/src/assets/OffCanImg/Offimg5.png";
+
+
 
 import NineComp from "../Ninecomp/NineComp";
 
@@ -161,7 +164,7 @@ const FourthNavbar = () => {
                     <SplideSlide className="fourth-off-cars2">
                       <div className="card fourth-off-card">
                         <img
-                          src="./src/assets/OffCanImg/Offimg2.jpg"
+                          src={NewOffImg2}
                           className="card-img-top"
                           alt="..."
                         />
@@ -226,7 +229,7 @@ const FourthNavbar = () => {
                     <SplideSlide className="fourth-off-cars2">
                       <div className="card fourth-off-card">
                         <img
-                          src="./src/assets/OffCanImg/Offimg5.jpg"
+                          src={NewOffImg5}
                           className="card-img-top"
                           alt="..."
                         />
